@@ -11,9 +11,9 @@
 function range(start, end, step) {
 
 	var numberList = [start];          // ustalamy pierwszy element tablicy liczb
-   if (step == undefined) {          // jeśli nie zostanie podany argument step,
-     step = 1;                       // ustalamy jego wartośc na równą 1.
-   }
+  if (step == undefined) {          // jeśli nie zostanie podany argument step,
+    step = 1;                       // ustalamy jego wartośc na równą 1.
+  }
 
 // budujemy tablicę poprzez cykliczne dodawanie
 // wartości kroku (step) do początku zakresu (start)
